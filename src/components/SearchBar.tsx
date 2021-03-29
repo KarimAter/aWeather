@@ -24,6 +24,7 @@ const SearchBar = ({ getResult }: Props) => {
       // .get(`${ACCU}${API_KEY}&q=${cityQuery}&language=en-us`)
       .get(google + cityQuery)
       .then((response) => setLocations(response.data.predictions))
+      // .then((response) => setLocations(response.data))
       .catch((error: AxiosError): void => {
         if (error.response) console.log(error.response);
         else if (error.request) console.log(error.request);
