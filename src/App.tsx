@@ -11,7 +11,7 @@ function App() {
     setSelectedCity(result);
   };
   return (
-    <div className=" h-screen mt-36">
+    <div className=" h-screen mt-8">
       {/* <div className="flex flex-col mx-auto w-full h-72  border-red-600 border-solid border-b-2">
         <img
           src={imagee}

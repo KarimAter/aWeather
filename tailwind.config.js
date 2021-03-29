@@ -14,7 +14,17 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["active"],
+      transformOrigin: ["active"],
+      rotate: ["active"],
+      transform: ["active"],
+      transitionDelay: ["active"],
+      transitionDuration: ["active"],
+      transitionProperty: ["active"],
+      transitionTimingFunction: ["active"],
+      translate: ["active"],
+    },
   },
   plugins: [],
 };
